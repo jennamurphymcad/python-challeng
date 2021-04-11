@@ -47,8 +47,7 @@ with open(budget_csv) as csvfile:
             greatest_decrease = str(date + " ($"  + str(lowest) + ")")
 
     
-    stdout = open('Resources/results.txt', 'w')
-    # Print findings  
+    # Print findings to terminal 
     print(f"Financial Analysis")
     print(f"_____________________________")
     print(f"Total Months: {months}")
@@ -56,4 +55,17 @@ with open(budget_csv) as csvfile:
     print(f"Average Change: ${average}")     
     print(f"Greatest Increase in Profits: {greatest_increase}")
     print(f"Greatest Decrease in Profits: {greatest_decrease}")
-    stdout.close()
+
+    #print findings to csv
+    with open('Analysis/results.txt', 'w') as csvfile:
+            # Initialize csv.writer
+        csvwriter = csv.writer(csvfile, delimiter=' ')
+
+        # Write the first row (column headers)
+        csvwriter.writerow({'Financial Analysis'})
+        csvwriter.writerow({'----------------------------'})
+        csvwriter.writerow({f'Total Months: {months}'})
+        csvwriter.writerow({f'Total: ${net_total}'})
+        csvwriter.writerow({f'Average Change: ${average}'})
+        csvwriter.writerow({f'Greatest Increase in Profits: {greatest_increase}'})
+        csvwriter.writerow({f'Greatest Decrease in Profits: {greatest_decrease}'})
