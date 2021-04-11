@@ -9,7 +9,7 @@ profit_loss = []
 budget_csv = os.path.join('Resources', 'budget_data.csv')
 
 
-    
+# Open and read through csv
 with open(budget_csv) as csvfile: 
     csvreader = csv.reader(csvfile, delimiter=',')
     header = next(csvreader)
@@ -56,7 +56,7 @@ with open(budget_csv) as csvfile:
     print(f"Greatest Increase in Profits: {greatest_increase}")
     print(f"Greatest Decrease in Profits: {greatest_decrease}")
 
-    #print findings to csv
+    # Print findings to csv
     with open('Analysis/results.txt', 'w') as csvfile:
             # Initialize csv.writer
         csvwriter = csv.writer(csvfile, delimiter=' ')
