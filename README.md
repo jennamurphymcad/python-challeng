@@ -1,6 +1,6 @@
 # Python Homework 
 
-## Data Analyticss and Visualization Bootcamp | University of Minnesota
+## Data Analytics and Visualization Bootcamp | University of Minnesota
 
 ### PyBank
 
