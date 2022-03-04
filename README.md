@@ -1,6 +1,4 @@
-# Python Homework
-
-## Week 3 Data Analytics and Visualization Bootcamp, University of Minnesota and Trilogy Education Services
+# Python Homework | Data Analyticss and Visualization Bootcamp | Week 3
 
 ## PyBank
 
