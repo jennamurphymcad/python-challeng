@@ -1,6 +1,8 @@
-# Python Homework | Data Analyticss and Visualization Bootcamp | Week 3
+# Python Homework 
 
-## PyBank
+## Data Analyticss and Visualization Bootcamp | University of Minnesota
+
+### PyBank
 
 * Instructions:
 
@@ -20,7 +22,7 @@
 
 * In addition, the final script should both print the analysis to the terminal and export a text file with the results.
 
-## PyPoll
+### PyPoll
 
 * In this challenge, we were given a set of poll data (PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Our task was to create a Python script that analyzes the votes and calculates each of the following:
 
@@ -35,3 +37,8 @@
   * The winner of the election based on popular vote 
 
 * In addition, the final script should both print the analysis to the terminal and export a text file with the results.
+
+
+## Assignment Copyright
+
+Trilogy Education Services © 2019. All Rights Reserved.
